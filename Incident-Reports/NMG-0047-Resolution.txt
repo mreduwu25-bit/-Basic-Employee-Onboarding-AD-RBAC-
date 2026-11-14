@@ -1,14 +1,17 @@
-1. Jane's User identity is in the operations OU
-2. Jane was located in the Operations OU, she was suppose to be in the HR OU, shes a payroll specialist
-3. Janes currently a member of Operations-users; she should be in Hr-users.
+Ticket Number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
 
-The reason this issue occured is jane was placed in the incorrect OU which led to her gettting the wrong access, and thats the reason the policies werent applied to her appropriately.
+Investigation:
+1. Jane's user account was located in the Operations OU.
+2. Jane is a payroll specialist, so her account belongs in the HR OU.
+3. Jane was a member of the Operations-Users security group; she should be a member of HR-Users.
 
-Ticket Number:NMG-0047
-Affected user:Jane Cooper (jcooper@NMG.com)
-Issue reported:Unable to access HR shared resources.Desktop policies and mapped drives differ from teammates.
-Root cause: This issue occurred because Jane Cooper was placed inside the wrong OU and security group. Therefore, she had the wrong access granted for work.
-Fix applied: I first examine the issue, then fix it by moving Jane Cooper into the current OU for HR, also changed her security group to HR-OU
-Verification: Issue was resolved by reviewing the OU, Security group members list, and provided screenshots
-Date resolved:11/05/2026
-Resolved by: IT New hire
+Root cause: Jane Cooper was placed in the wrong OU and the wrong security group. As a result she received the wrong access for her job, and the policies for her department were not applied to her account.
+
+Fix applied: I reviewed the issue, then moved Jane Cooper's account into the HR OU and changed her security group membership from Operations-Users to HR-Users.
+
+Verification: Confirmed by reviewing the HR OU and the HR-Users member list (see the Day 4 screenshots in the Screenshots folder).
+
+Date resolved: 11/05/2026
+Resolved by: IT New Hire
