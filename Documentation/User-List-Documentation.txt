@@ -1,0 +1,7 @@
+Total users created: 15
+Finance users (4): dchen, kmills, rhayes, lpark
+HR users (4): storres, jwhitfield, mgrant, jcooper
+IT users (4): mjohnson, ppatel, tbrooks, acoleman
+Operations users (3): bfoster, crivera, nross
+All users confirmed in the correct OU and security group (see RBAC-Structure.md)
+Date completed: 11/03/2026
